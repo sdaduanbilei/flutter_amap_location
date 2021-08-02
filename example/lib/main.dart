@@ -1,17 +1,9 @@
-import 'package:flutter/material.dart';
 import 'package:amap_location/amap_location.dart';
-import 'package:simple_permissions/simple_permissions.dart';
 import 'package:easy_alert/easy_alert.dart';
+import 'package:flutter/material.dart';
+import 'package:simple_permissions/simple_permissions.dart';
 
 void main() {
-  /*============*/
-  //设置ios的key
-  /*=============*/
-  AMapLocationClient.setApiKey("a5bae506b2d053ed4ae7827f38b1766d");
-  /*============*/
-  //设置ios的key
-  /*=============*/
-
   runApp(new MaterialApp(
     home: new Home(),
     routes: {
@@ -26,6 +18,7 @@ class _LocationGetState extends State {
 
   @override
   Widget build(BuildContext context) {
+    AMapLocationClient.setApiKey("a5bae506b2d053ed4ae7827f38b1766d");
     return new Scaffold(
         appBar: new AppBar(
           title: new Text('直接获取定位'),
@@ -38,6 +31,14 @@ class _LocationGetState extends State {
   }
 
   void _checkPersmission() async {
+    /*============*/
+    //设置ios的key
+    /*=============*/
+    AMapLocationClient.setApiKey("a5bae506b2d053ed4ae7827f38b1766d")
+        .then((value) => {debugPrint(value.toString())});
+    /*============*/
+    //设置ios的key
+    /*=============*/
     bool hasPermission =
         await SimplePermissions.checkPermission(Permission.WhenInUseLocation);
     if (!hasPermission) {

@@ -1,9 +1,10 @@
 import 'dart:async';
 
-export 'amap_location_option.dart';
-
 import 'package:flutter/services.dart';
+
 import 'amap_location_option.dart';
+
+export 'amap_location_option.dart';
 
 class AMapLocationQualityReport {
   static const int ok = 0;

@@ -60,7 +60,7 @@ static NSDictionary* DesiredAccuracy = @{@"kCLLocationAccuracyBest":@(kCLLocatio
         
     }else if([@"setApiKey" isEqualToString:method]){
         [AMapServices sharedServices].apiKey = call.arguments;
-
+        NSLog(@"%@",call.arguments);
         result(@YES);
     } else {
         result(FlutterMethodNotImplemented);
@@ -138,7 +138,7 @@ static NSDictionary* DesiredAccuracy = @{@"kCLLocationAccuracyBest":@(kCLLocatio
 -(void)getLocation:(BOOL)withReGeocode result:(FlutterResult)result{
     
     self.completionBlock = ^(CLLocation *location, AMapLocationReGeocode *regeocode, NSError *error){
-        
+        NSLog(@"%@",regeocode);
         if (error != nil && error.code == AMapLocationErrorLocateFailed)
         {
             //定位错误：此时location和regeocode没有返回值，不进行annotation的添加
@@ -167,6 +167,7 @@ static NSDictionary* DesiredAccuracy = @{@"kCLLocationAccuracyBest":@(kCLLocatio
         else
         {
             //没有错误：location有返回值，regeocode是否有返回值取决于是否进行逆地理操作，进行annotation的添加
+            NSLog(@"%@",regeocode);
         }
         
         NSMutableDictionary* md = [[NSMutableDictionary alloc]initWithDictionary: [AmapLocationPlugin location2map:location]  ];
@@ -197,15 +198,16 @@ static NSDictionary* DesiredAccuracy = @{@"kCLLocationAccuracyBest":@(kCLLocatio
 }
 
 +(NSDictionary*)regeocode2map:(AMapLocationReGeocode *)regeocode{
-    return @{@"formattedAddress":regeocode.formattedAddress,
-             @"country":regeocode.country,
-             @"province":regeocode.province,
-             @"city":regeocode.city,
-             @"district":regeocode.district,
-             @"citycode":regeocode.citycode,
-             @"adcode":regeocode.adcode,
-             @"street":regeocode.street,
-             @"number":regeocode.number,
+    NSLog(@"%@",regeocode);
+    return @{@"formattedAddress":[self checkNull : regeocode.formattedAddress],
+             @"country":[self checkNull : regeocode.country],
+             @"province":[self checkNull: regeocode.province],
+             @"city":[self checkNull: regeocode.city],
+             @"district":[self checkNull:regeocode.district],
+             @"citycode":[self checkNull: regeocode.citycode],
+             @"adcode":[self checkNull: regeocode.adcode],
+             @"street":[self checkNull: regeocode.street],
+             @"number":[self checkNull: regeocode.number],
              @"POIName":[self checkNull : regeocode.POIName],
              @"AOIName":[self checkNull :regeocode.AOIName],
              };
