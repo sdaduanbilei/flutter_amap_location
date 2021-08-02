@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'amap_location'
-  s.version          = '0.0.6'
+  s.version          = '0.0.1'
   s.summary          = 'A Flutter plugin to use amap location.高德地图定位组件'
   s.description      = <<-DESC
 A Flutter plugin to use amap location.高德地图定位组件
