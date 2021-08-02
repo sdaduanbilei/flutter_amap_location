@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6fc96de-fa14-4da1-acdd-978dc451dab9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/android/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/example/ios/Podfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/example/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/example/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/example/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/example/test/widget_test.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/amap_location/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Podfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/test/widget_test.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/AmapLocationPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/AmapLocationPlugin.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/amap_location.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/amap_location.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,22 +54,22 @@
       <screen x="0" y="25" width="1440" height="818" />
     </state>
     <state x="457" y="228" key="#com.intellij.ide.util.TreeFileChooserDialog/0.25.1440.818/-1920.-123.1920.1055@0.25.1440.818" timestamp="1627875434978" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1627889088027">
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1627889230774">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.25.1440.818/-1920.-123.1920.1055@0.25.1440.818" timestamp="1627889088027" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1627889088026">
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.25.1440.818/-1920.-123.1920.1055@0.25.1440.818" timestamp="1627889230774" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1627889230773">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.center/0.25.1440.818/-1920.-123.1920.1055@0.25.1440.818" timestamp="1627889088026" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1627889088026">
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.25.1440.818/-1920.-123.1920.1055@0.25.1440.818" timestamp="1627889230773" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1627889230773">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.left/0.25.1440.818/-1920.-123.1920.1055@0.25.1440.818" timestamp="1627889088026" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1627889088027">
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.25.1440.818/-1920.-123.1920.1055@0.25.1440.818" timestamp="1627889230773" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1627889230774">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.right/0.25.1440.818/-1920.-123.1920.1055@0.25.1440.818" timestamp="1627889088027" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.25.1440.818/-1920.-123.1920.1055@0.25.1440.818" timestamp="1627889230774" />
     <state x="221" y="25" width="1024" height="818" key="SettingsEditor" timestamp="1627875419800">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
